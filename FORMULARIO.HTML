@@ -1,0 +1,89 @@
+<html>
+    <head>
+        
+ 
+        <title>Formulario Clientes</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        
+        <link rel="stylesheet" href="ESTILO_REGISTRARSE.CSS">
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;600;800&display=swap" rel="stylesheet">
+        <script src="https://kit.fontawesome.com/42ec7ee6fe.js" crossorigin="anonymous"></script>
+
+    </head>
+
+    <body>
+
+        <form action="" method="post" class="form_clientes">
+
+            <h2 class="titulo_form_clientes">CLIENTES</h2>
+
+            <div class="contenedor-input">
+
+                <table class="tabla_clientes" border="1">
+
+                    <tr>
+
+                        <td class="celda-IdentificacionCliente">Identificacion_Cliente</td>
+                        <td> <input type="text" name="Identificacion" class="input-50" placeholder="No Identificacion"> </td>
+
+                    </tr>
+
+
+                    <tr>
+
+                        <td class="celda-NombresApellidos">Nombres_Apellidos</td>
+                        <td> <input type="text" name="NombresApellidos" class="input-50" placeholder="Nombres y Apellidos "> </td>
+
+                    </tr>
+
+                    <tr>
+
+                        <td class="celda-Edad">Edad</td>
+                        <td> <input type="text" name="Edad" class="input-50" placeholder="Edad"> </td>
+
+                    </tr>
+
+                    <tr>
+
+                        <td class="celda-Email">E-mail</td>
+                        <td> <input type="email" name="Email" class="input-50" placeholder="Correo Electronico"> </td>
+
+                    </tr>
+
+                    <tr>
+
+                        <td class="celda-Telefono">Telefono</td>
+                        <td> <input type="text" name="Telefono" class="input-50" placeholder="No Telefono"> </td>
+
+                    </tr>
+
+                    <tr>
+                        
+                        <td class="celda-Genero">Genero</td>
+                        <td> <select name="Genero" id="Genero" class="select-45">
+                        <option value="Masculino">Masculino</option>
+                        <option value="Femenino">Fememnino</option>                     
+                        <option value="Otro">Otro</option>
+                            </select>
+
+                    </tr>
+
+                </table>
+
+                <table class="Tabla-Botones">
+
+                    <tr>
+
+                        <td> <input type="submit" value="Registrarse" class="btn-registrarse"> </td>
+
+                    </tr>
+
+                </table>
+
+            </div>
+
+        </form>
+
+    </body>
